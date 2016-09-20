@@ -3,3 +3,7 @@ deployment:
     branch: master
     commands:
        - git subtree push --prefix client git@heroku.com:review-apps-strategy.git master
+
+test:
+  override:
+    - ./test.sh
