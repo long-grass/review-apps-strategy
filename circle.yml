@@ -2,7 +2,7 @@ deployment:
   master:
     branch: master
     commands:
-       - git subtree push --prefix client git@heroku.com:review-apps-strategy.git master
+       - git subtree push --prefix client git@heroku.com:pacific-ridge-92870.git master
 
 test:
   override:
