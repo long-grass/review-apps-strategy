@@ -1,0 +1,29 @@
+<div class="cumbria" ng-controller="cumbriaController as cumbria">{{cumbria.message}}
+
+  <span>we don't want to show all the yorkshire towns in this view, but we might like to know how many there are, so we can just grab that from the towns service
+
+   <br>
+
+   <div ng-repeat="town in cumbria.yorkshire_towns">
+      <span ng-if="town.city">{{town.name}} is a city</span>
+    </div>
+<br>
+   and {{cumbria.cumbria_towns.length}} towns in cumbria
+
+
+
+<div style="margin-top:25px;background:pink;height:75px;width:25%;border:2px solid black" ng-controller="coreController as core">
+   <div>{{core.message}}</div>
+
+
+
+  
+   <button ng-click="core.goToCounty('yorkshire')">Go To Yorkshire</button><br>
+
+ </div>
+
+
+
+</div>
+
+

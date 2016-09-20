@@ -1,0 +1,16 @@
+<div class="yorkshire" ng-controller="yorkshireController as yorkshire">
+   <div style="color:yellowgreen">{{yorkshire.message}}</div>
+   <div style="color:white">{{yorkshire.serviceMessage}}</div>
+   <div ng-repeat="town in yorkshire.towns" ng-click="yorkshire.addModal(town)">{{town.name}} has {{town.population}} people<br></div>
+  <hr>
+
+  <div >
+    <span> favourites</span><br>
+    <div style="color:white" ng-repeat="town in yorkshire.favourite_towns" ng-click="yorkshire.removeModal(town)">{{town.name}}</div>
+  </div>
+
+  
+</div>
+
+
+ 

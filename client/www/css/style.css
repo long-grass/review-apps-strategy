@@ -1,0 +1,20 @@
+.cumbria {
+  background: steelblue;
+  float: left;
+  height: 650px;
+  width: 80%;
+  border: 2px solid green; }
+
+.lancashire {
+  background: yellow;
+  float: right;
+  height: 450px;
+  width: 25%;
+  border: 2px solid black; }
+
+.yorkshire {
+  background: cornflowerblue;
+  float: right;
+  height: 100%;
+  width: 25%;
+  border: 2px solid black; }
