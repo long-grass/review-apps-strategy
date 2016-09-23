@@ -8,7 +8,7 @@
     function coreController($state) { 
 
         var vm = this;
-        vm.message = "I am the master branch"
+        vm.message = "I am from the branch called 'i-like-pipelines!'"
 
 
     }
