@@ -7,7 +7,7 @@ deployment:
   develop:
     branch: develop
     commands:
-       - git subtree push --prefix client git@heroku.com:dev-pipelne.git master
+       - git subtree push --prefix client git@heroku.com:dev-pipeline.git master
 
 test:
   override:
