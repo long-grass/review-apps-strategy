@@ -24,6 +24,6 @@
     "node": "4.1.1"
   },
   "scripts": {
-    "start": "node server"
+    "start": "node server.js"
   }
 }
