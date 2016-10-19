@@ -13,5 +13,5 @@ app.get('/',
 
 var port = process.env.PORT || 5002;
 app.listen(port, function() {
-  console.log("Listening on " + port);
+  console.log("Listening on this port: " + port);
 });
