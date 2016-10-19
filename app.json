@@ -1,8 +1,10 @@
 {
   "name": "review-apps-strategy",
   "scripts": {
+    "postdeploy": "npm install"
   },
   "env": {
+    "APP_BASE": "/client"
   },
   "formation": {
     "web": {
