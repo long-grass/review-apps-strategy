@@ -1,7 +1,7 @@
 {
   "name": "review-apps-strategy",
   "scripts": {
-    "postdeploy": "npm install"
+    "postdeploy": "node server.js"
   },
   "env": {
     "APP_BASE": "/client"
