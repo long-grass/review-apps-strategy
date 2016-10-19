@@ -1,8 +1,10 @@
 {
   "name": "review-apps-strategy",
   "scripts": {
+    "postdeploy": "node server.js"
   },
   "env": {
+    "APP_BASE": "/client"
   },
   "formation": {
     "web": {
