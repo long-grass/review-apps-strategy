@@ -3,6 +3,12 @@
   "scripts": {
   },
   "env": {
+    "HEROKU_APP_BASE": {
+      "required": true
+    },
+    "APP_BASE": {
+      "required": true
+    }
   },
   "formation": {
     "web": {
