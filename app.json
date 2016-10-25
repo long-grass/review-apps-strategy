@@ -3,6 +3,7 @@
   "scripts": {
   },
   "env": {
+      "APP_BASE" = "client"
   },
   "formation": {
     "web": {
