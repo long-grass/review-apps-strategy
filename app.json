@@ -1,20 +1,22 @@
 {
-  "name": "review-apps-strategy",
-  "scripts": {
-  },
-  "env": {
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [
+    "name": "review-apps-strategy",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "env": {
+        "APP_BASE": "client"
+    },
+    "formation": {
+        "web": {
+            "quantity": 1
+        }
+    },
+    "addons": [
 
-  ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/lstoll/heroku-buildpack-monorepo"
-    }
-  ]
+    ],
+    "buildpacks": [
+        {
+            "url": "https://github.com/lstoll/heroku-buildpack-monorepo"
+        },
+    ]
 }
