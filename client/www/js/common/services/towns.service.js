@@ -14,7 +14,7 @@
         population: 16000
       },{
         name:'kendal',
-        population: 11000
+        population: 11005
       },{
         name:'appleby',
         population:15000
