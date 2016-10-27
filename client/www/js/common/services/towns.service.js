@@ -25,7 +25,7 @@
           population: 76002,            
       },{
           name:"huddersfield",
-          population: 176000, 
+          population: 176001, 
       },{
           name:"batley",
           population: 22000, 
