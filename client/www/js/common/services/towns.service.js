@@ -28,7 +28,7 @@
           population: 176001, 
       },{
           name:"batley",
-          population: 22000, 
+          population: 22007, 
       },{
           name:"meltham",
           population: 11000, 
