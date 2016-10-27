@@ -1,7 +1,7 @@
 {
     "name": "review-apps-strategy",
     "scripts": {
-      "start": "node server.js"
+      "start": "node server"
     },
     "env": {
         "APP_BASE": "client"
