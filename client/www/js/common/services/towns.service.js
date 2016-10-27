@@ -22,10 +22,10 @@
 
       var yorkshireTowns = [{
           name:"barnsley",
-          population: 76000,            
+          population: 76002,            
       },{
           name:"huddersfield",
-          population: 176000, 
+          population: 176001, 
       },{
           name:"batley",
           population: 22000, 
@@ -37,7 +37,7 @@
           population: 29000, 
       },{
           name:"sheffield",
-          population: 450000, 
+          population: 450024, 
       },{
           name:"leeds",
           population: 650000, 
