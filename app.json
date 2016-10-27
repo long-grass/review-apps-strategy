@@ -17,8 +17,5 @@
         {
             "url": "https://github.com/lstoll/heroku-buildpack-monorepo"
         },
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs#v83"
-        }
     ]
 }
