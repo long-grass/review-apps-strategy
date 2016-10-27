@@ -22,7 +22,7 @@
 
       var yorkshireTowns = [{
           name:"barnsley",
-          population: 76000,            
+          population: 76002,            
       },{
           name:"huddersfield",
           population: 176000, 
