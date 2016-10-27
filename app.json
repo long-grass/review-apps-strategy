@@ -1,7 +1,6 @@
 {
     "name": "review-apps-strategy",
     "scripts": {
-      "start": "node server.js"
     },
     "env": {
         "APP_BASE": "client"
@@ -17,6 +16,9 @@
     "buildpacks": [
         {
             "url": "https://github.com/lstoll/heroku-buildpack-monorepo"
+        },
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs#v83"
         }
     ]
 }
