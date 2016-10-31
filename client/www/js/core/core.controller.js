@@ -8,7 +8,7 @@
     function coreController($state) { 
 
         var vm = this;
-        vm.message = "I am from the branch called 'i-like-pipelines---' and this is a change in develop"
+        vm.message = "I am from the branch called 'ac-test-1' and this is a change in develop"
 
 
     }
