@@ -43,7 +43,7 @@
           population: 650000, 
       },{
           name:"skipton",
-          population: 36000, 
+          population: 36014, 
       },{
           name:"todmorden",
           population: 16000, 
